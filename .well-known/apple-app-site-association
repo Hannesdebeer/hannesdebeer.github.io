@@ -1,0 +1,10 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["6S2J4UC3LS.com.hdbmm.tobi"],
+        "components": [{ "/": "*" }]
+      }
+    ]
+  }
+}
