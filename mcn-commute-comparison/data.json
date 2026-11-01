@@ -1,0 +1,194 @@
+{
+  "destination": {
+    "name": "MCN Hive, Barsha Heights",
+    "query": "25.097041,55.1786786"
+  },
+  "methodology": "Google Maps driving-route snapshot: Sunday 1 November 2026, 12:43\u201312:44 GST (Dubai time). Values show the fastest recommended \u201cLeave now\u201d route observed then, not live traffic or a weekday rush-hour forecast. Distances follow roads, not straight lines. A shorter alternative may take longer.",
+  "communities": [
+    {
+      "id": "damac-hills-2",
+      "name": "DAMAC Hills 2",
+      "caption": "Southeast Dubai",
+      "origin": "Damac Hills 2 Hotel - Edge by Rotana",
+      "distanceKm": 35,
+      "timeMin": 32,
+      "originQuery": "24.9835824,55.3928362",
+      "note": "Hotel is a representative community landmark, not an exact villa. Via D63. Google Maps flags tolls on this route.",
+      "sourceUrl": "https://www.google.com/maps/dir/?api=1&origin=24.9835824,55.3928362&destination=25.097041,55.1786786&travelmode=driving",
+      "sourceLabel": "Google Maps driving route",
+      "sourceNote": "32 min \u00b7 35 km \u00b7 via D63 \u00b7 Tolls shown",
+      "via": "D63",
+      "tolls": true,
+      "alternatives": [
+        {
+          "distanceKm": 31.8,
+          "durationMinutes": 34,
+          "via": "D63 and Hessa St/D61"
+        },
+        {
+          "distanceKm": 56.4,
+          "durationMinutes": 41,
+          "via": "Al Ain - Dubai Rd/E66"
+        }
+      ]
+    },
+    {
+      "id": "the-valley",
+      "name": "The Valley",
+      "caption": "Dubai\u2013Al Ain Road",
+      "origin": "The Valley by Emaar",
+      "distanceKm": 50.9,
+      "timeMin": 37,
+      "originQuery": "25.0108317,55.4439529",
+      "note": "Google Maps development pin; individual cluster gate may change route. Via Al Ain - Dubai Rd/E66. Google Maps flags tolls on this route.",
+      "sourceUrl": "https://www.google.com/maps/dir/?api=1&origin=25.0108317,55.4439529&destination=25.097041,55.1786786&travelmode=driving",
+      "sourceLabel": "Google Maps driving route",
+      "sourceNote": "37 min \u00b7 50.9 km \u00b7 via Al Ain - Dubai Rd/E66 \u00b7 Tolls shown",
+      "via": "Al Ain - Dubai Rd/E66",
+      "tolls": true,
+      "alternatives": [
+        {
+          "distanceKm": 47.1,
+          "durationMinutes": 38,
+          "via": "Al Ain - Dubai Rd/E66 and Sheikh Mohammed Bin Zayed Rd/E311"
+        },
+        {
+          "distanceKm": 48.8,
+          "durationMinutes": 37,
+          "via": "Jebel Ali - Lehbab Rd/E77"
+        }
+      ]
+    },
+    {
+      "id": "arabian-ranches-3",
+      "name": "Arabian Ranches 3",
+      "caption": "Emaar community",
+      "origin": "Arabian Ranches 3",
+      "distanceKm": 29.7,
+      "timeMin": 25,
+      "originQuery": "25.0657844,55.3214386",
+      "note": "Uses Arabian Ranches 3, not original Arabian Ranches or Arabian Ranches 2. Via D63. Google Maps flags tolls on this route.",
+      "sourceUrl": "https://www.google.com/maps/dir/?api=1&origin=25.0657844,55.3214386&destination=25.097041,55.1786786&travelmode=driving",
+      "sourceLabel": "Google Maps driving route",
+      "sourceNote": "25 min \u00b7 29.7 km \u00b7 via D63 \u00b7 Tolls shown",
+      "via": "D63",
+      "tolls": true,
+      "alternatives": [
+        {
+          "distanceKm": 36.4,
+          "durationMinutes": 31,
+          "via": "Sheikh Mohammed Bin Zayed Rd/E311"
+        },
+        {
+          "distanceKm": 40.2,
+          "durationMinutes": 31,
+          "via": "Sheikh Zayed Rd/E11"
+        }
+      ]
+    },
+    {
+      "id": "town-square",
+      "name": "Town Square",
+      "caption": "Al Qudra Road",
+      "origin": "Town Square Main Park",
+      "distanceKm": 24.2,
+      "timeMin": 24,
+      "originQuery": "25.0046299,55.291236",
+      "note": "Central park is a representative landmark, not an exact villa. Via D63. Google Maps flags tolls on this route.",
+      "sourceUrl": "https://www.google.com/maps/dir/?api=1&origin=25.0046299,55.291236&destination=25.097041,55.1786786&travelmode=driving",
+      "sourceLabel": "Google Maps driving route",
+      "sourceNote": "24 min \u00b7 24.2 km \u00b7 via D63 \u00b7 Tolls shown",
+      "via": "D63",
+      "tolls": true,
+      "alternatives": [
+        {
+          "distanceKm": 21,
+          "durationMinutes": 25,
+          "via": "Hessa St/D61"
+        },
+        {
+          "distanceKm": 26.2,
+          "durationMinutes": 25,
+          "via": "D63 and Umm Suqeim St/D63"
+        }
+      ]
+    },
+    {
+      "id": "dubailand",
+      "name": "Dubailand",
+      "caption": "Using Villanova \u00b7 assumption",
+      "origin": "Villanova Centre By Dubai Retail",
+      "distanceKm": 30.3,
+      "timeMin": 24,
+      "note": "Dubailand is a very large district; Villanova is an explicit representative villa-community assumption, not all Dubailand. Via D63. Google Maps flags tolls on this route.",
+      "originQuery": "25.0741648,55.3670157",
+      "sourceUrl": "https://www.google.com/maps/dir/?api=1&origin=25.0741648,55.3670157&destination=25.097041,55.1786786&travelmode=driving",
+      "sourceLabel": "Google Maps driving route",
+      "sourceNote": "24 min \u00b7 30.3 km \u00b7 via D63 \u00b7 Tolls shown",
+      "via": "D63",
+      "tolls": true,
+      "alternatives": [
+        {
+          "distanceKm": 27,
+          "durationMinutes": 25,
+          "via": "Emirates Rd/E611"
+        },
+        {
+          "distanceKm": 33.4,
+          "durationMinutes": 28,
+          "via": "Emirates Rd/E611 and D63"
+        }
+      ]
+    },
+    {
+      "id": "investment-city",
+      "name": "Investment City",
+      "caption": "Using Dubai Investments Park",
+      "origin": "Green Community Village",
+      "distanceKm": 22.7,
+      "timeMin": 18,
+      "note": "Interprets user wording Investment City as Dubai Investments Park; Green Community Village is a residential-area proxy. Confirm intended area. Via D57 and Sheikh Zayed Rd/E11. Google Maps flags tolls on this route.",
+      "originQuery": "25.0039904,55.1666649",
+      "sourceUrl": "https://www.google.com/maps/dir/?api=1&origin=25.0039904,55.1666649&destination=25.097041,55.1786786&travelmode=driving",
+      "sourceLabel": "Google Maps driving route",
+      "sourceNote": "18 min \u00b7 22.7 km \u00b7 via D57 and Sheikh Zayed Rd/E11 \u00b7 Tolls shown",
+      "via": "D57 and Sheikh Zayed Rd/E11",
+      "tolls": true,
+      "alternatives": [
+        {
+          "distanceKm": 18.9,
+          "durationMinutes": 19,
+          "via": "Sheikh Mohammed Bin Zayed Rd/E311"
+        },
+        {
+          "distanceKm": 26.1,
+          "durationMinutes": 21,
+          "via": "Al Khail Rd/E44"
+        }
+      ]
+    },
+    {
+      "id": "sports-city",
+      "name": "Dubai Sports City",
+      "caption": "Sheikh Mohammed Bin Zayed Road",
+      "origin": "Dubai International Cricket Stadium",
+      "distanceKm": 10.2,
+      "timeMin": 13,
+      "originQuery": "25.0467727,55.2190809",
+      "note": "Stadium is a representative area landmark, not an exact villa; match-day traffic can differ. Via Hessa St/D61. No toll warning was shown for this route.",
+      "sourceUrl": "https://www.google.com/maps/dir/?api=1&origin=25.0467727,55.2190809&destination=25.097041,55.1786786&travelmode=driving",
+      "sourceLabel": "Google Maps driving route",
+      "sourceNote": "13 min \u00b7 10.2 km \u00b7 via Hessa St/D61 \u00b7 No toll warning shown",
+      "via": "Hessa St/D61",
+      "tolls": false,
+      "alternatives": [
+        {
+          "distanceKm": 21.2,
+          "durationMinutes": 18,
+          "via": "Sheikh Mohammed Bin Zayed Rd/E311"
+        }
+      ]
+    }
+  ],
+  "asOf": "1 Nov 2026 \u00b7 12:43\u201312:44 GST"
+}
