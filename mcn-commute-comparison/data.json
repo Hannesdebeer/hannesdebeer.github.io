@@ -3,7 +3,7 @@
     "name": "MCN Hive, Barsha Heights",
     "query": "25.097041,55.1786786"
   },
-  "methodology": "Google Maps driving-route snapshot: Sunday 1 November 2026, 12:43\u201312:44 GST (Dubai time). Values show the fastest recommended \u201cLeave now\u201d route observed then, not live traffic or a weekday rush-hour forecast. Distances follow roads, not straight lines. A shorter alternative may take longer.",
+  "methodology": "Google Maps driving-route snapshot: Sunday 1 November 2026, 12:43–12:44 GST (Dubai time). Values show the fastest recommended “Leave now” route observed then, not live traffic or a weekday rush-hour forecast. Distances follow roads, not straight lines. A shorter alternative may take longer.",
   "communities": [
     {
       "id": "damac-hills-2",
@@ -16,7 +16,7 @@
       "note": "Hotel is a representative community landmark, not an exact villa. Via D63. Google Maps flags tolls on this route.",
       "sourceUrl": "https://www.google.com/maps/dir/?api=1&origin=24.9835824,55.3928362&destination=25.097041,55.1786786&travelmode=driving",
       "sourceLabel": "Google Maps driving route",
-      "sourceNote": "32 min \u00b7 35 km \u00b7 via D63 \u00b7 Tolls shown",
+      "sourceNote": "32 min · 35 km · via D63 · Tolls shown",
       "via": "D63",
       "tolls": true,
       "alternatives": [
@@ -30,12 +30,44 @@
           "durationMinutes": 41,
           "via": "Al Ain - Dubai Rd/E66"
         }
-      ]
+      ],
+      "commute": {
+        "am": {
+          "timeMin": 35,
+          "timeMax": 65,
+          "distanceKm": 31.8,
+          "via": "D63",
+          "tolls": null,
+          "sourceUrl": "https://www.google.com/maps/dir/24.9835824,55.3928362/25.097041,55.1786786/@25.0371623,55.089833,11z/data=!4m6!4m5!2m3!6e1!7e2!8j1793610000!3e0?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+          "sourceNote": "Google Maps top recommended driving route, typical traffic forecast, directly read from scheduled route UI. Tolls not displayed in forecast card.",
+          "scheduleType": "arrive",
+          "date": "2026-11-02",
+          "localTime": "09:00",
+          "timezone": "Asia/Dubai",
+          "utcOffset": "+04:00",
+          "suggestedTime": "7:55 AM"
+        },
+        "pm": {
+          "timeMin": 35,
+          "timeMax": 60,
+          "distanceKm": 32.2,
+          "via": "D63",
+          "tolls": null,
+          "sourceUrl": "https://www.google.com/maps/dir/25.097041,55.1786786/'24.9835824,55.3928362'/@25.0337907,55.1556332,11z/data=!3m1!4b1!4m11!4m10!1m0!1m3!2m2!1d55.3928362!2d24.9835824!2m3!6e0!7e2!8j1793642400!3e0?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+          "sourceNote": "Google Maps top recommended driving route, typical traffic forecast, directly read from scheduled route UI. Tolls not displayed in forecast card.",
+          "scheduleType": "depart",
+          "date": "2026-11-02",
+          "localTime": "18:00",
+          "timezone": "Asia/Dubai",
+          "utcOffset": "+04:00",
+          "suggestedTime": "7:00 PM"
+        }
+      }
     },
     {
       "id": "the-valley",
       "name": "The Valley",
-      "caption": "Dubai\u2013Al Ain Road",
+      "caption": "Dubai–Al Ain Road",
       "origin": "The Valley by Emaar",
       "distanceKm": 50.9,
       "timeMin": 37,
@@ -43,7 +75,7 @@
       "note": "Google Maps development pin; individual cluster gate may change route. Via Al Ain - Dubai Rd/E66. Google Maps flags tolls on this route.",
       "sourceUrl": "https://www.google.com/maps/dir/?api=1&origin=25.0108317,55.4439529&destination=25.097041,55.1786786&travelmode=driving",
       "sourceLabel": "Google Maps driving route",
-      "sourceNote": "37 min \u00b7 50.9 km \u00b7 via Al Ain - Dubai Rd/E66 \u00b7 Tolls shown",
+      "sourceNote": "37 min · 50.9 km · via Al Ain - Dubai Rd/E66 · Tolls shown",
       "via": "Al Ain - Dubai Rd/E66",
       "tolls": true,
       "alternatives": [
@@ -57,7 +89,39 @@
           "durationMinutes": 37,
           "via": "Jebel Ali - Lehbab Rd/E77"
         }
-      ]
+      ],
+      "commute": {
+        "am": {
+          "timeMin": 45,
+          "timeMax": 70,
+          "distanceKm": 50.9,
+          "via": "Al Ain - Dubai Rd/E66",
+          "tolls": null,
+          "sourceUrl": "https://www.google.com/maps/dir/'25.0108317,55.4439529'/25.097041,55.1786786/@25.0931112,55.1577944,11z/data=!3m1!4b1!4m11!4m10!1m3!2m2!1d55.4439529!2d25.0108317!1m0!2m3!6e1!7e2!8j1793610000!3e0?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+          "sourceNote": "Google Maps top recommended driving route, typical traffic forecast, directly read from scheduled route UI. Tolls not displayed in forecast card.",
+          "scheduleType": "arrive",
+          "date": "2026-11-02",
+          "localTime": "09:00",
+          "timezone": "Asia/Dubai",
+          "utcOffset": "+04:00",
+          "suggestedTime": "7:50 AM"
+        },
+        "pm": {
+          "timeMin": 40,
+          "timeMax": 65,
+          "distanceKm": 42.1,
+          "via": "Sheikh Mohammed Bin Zayed Rd/E311 and Al Ain - Dubai Rd/E66",
+          "tolls": null,
+          "sourceUrl": "https://www.google.com/maps/dir/25.097041,55.1786786/'25.0108317,55.4439529'/@25.094949,55.1508138,11z/data=!3m1!4b1!4m11!4m10!1m0!1m3!2m2!1d55.4439529!2d25.0108317!2m3!6e0!7e2!8j1793642400!3e0?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+          "sourceNote": "Google Maps top recommended driving route, typical traffic forecast, directly read from scheduled route UI. Tolls not displayed in forecast card.",
+          "scheduleType": "depart",
+          "date": "2026-11-02",
+          "localTime": "18:00",
+          "timezone": "Asia/Dubai",
+          "utcOffset": "+04:00",
+          "suggestedTime": "7:05 PM"
+        }
+      }
     },
     {
       "id": "arabian-ranches-3",
@@ -70,7 +134,7 @@
       "note": "Uses Arabian Ranches 3, not original Arabian Ranches or Arabian Ranches 2. Via D63. Google Maps flags tolls on this route.",
       "sourceUrl": "https://www.google.com/maps/dir/?api=1&origin=25.0657844,55.3214386&destination=25.097041,55.1786786&travelmode=driving",
       "sourceLabel": "Google Maps driving route",
-      "sourceNote": "25 min \u00b7 29.7 km \u00b7 via D63 \u00b7 Tolls shown",
+      "sourceNote": "25 min · 29.7 km · via D63 · Tolls shown",
       "via": "D63",
       "tolls": true,
       "alternatives": [
@@ -84,7 +148,39 @@
           "durationMinutes": 31,
           "via": "Sheikh Zayed Rd/E11"
         }
-      ]
+      ],
+      "commute": {
+        "am": {
+          "timeMin": 30,
+          "timeMax": 55,
+          "distanceKm": 26.4,
+          "via": "Emirates Rd/E611",
+          "tolls": null,
+          "sourceUrl": "https://www.google.com/maps/dir/'25.0657844,55.3214386'/25.097041,55.1786786/@25.0740184,55.1729199,12z/data=!3m1!4b1!4m11!4m10!1m3!2m2!1d55.3214386!2d25.0657844!1m0!2m3!6e1!7e2!8j1793610000!3e0?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+          "sourceNote": "Google Maps top recommended driving route, typical traffic forecast, directly read from scheduled route UI. Tolls not displayed in forecast card.",
+          "scheduleType": "arrive",
+          "date": "2026-11-02",
+          "localTime": "09:00",
+          "timezone": "Asia/Dubai",
+          "utcOffset": "+04:00",
+          "suggestedTime": "8:05 AM"
+        },
+        "pm": {
+          "timeMin": 26,
+          "timeMax": 45,
+          "distanceKm": 23.8,
+          "via": "Sheikh Zayed Bin Hamdan Al Nahyan Street/D54",
+          "tolls": null,
+          "sourceUrl": "https://www.google.com/maps/dir/25.097041,55.1786786/'25.0657844,55.3214386'/@25.0634017,55.1667087,12z/data=!3m1!4b1!4m11!4m10!1m0!1m3!2m2!1d55.3214386!2d25.0657844!2m3!6e0!7e2!8j1793642400!3e0?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+          "sourceNote": "Google Maps top recommended driving route, typical traffic forecast, directly read from scheduled route UI. Tolls not displayed in forecast card.",
+          "scheduleType": "depart",
+          "date": "2026-11-02",
+          "localTime": "18:00",
+          "timezone": "Asia/Dubai",
+          "utcOffset": "+04:00",
+          "suggestedTime": "6:45 PM"
+        }
+      }
     },
     {
       "id": "town-square",
@@ -97,7 +193,7 @@
       "note": "Central park is a representative landmark, not an exact villa. Via D63. Google Maps flags tolls on this route.",
       "sourceUrl": "https://www.google.com/maps/dir/?api=1&origin=25.0046299,55.291236&destination=25.097041,55.1786786&travelmode=driving",
       "sourceLabel": "Google Maps driving route",
-      "sourceNote": "24 min \u00b7 24.2 km \u00b7 via D63 \u00b7 Tolls shown",
+      "sourceNote": "24 min · 24.2 km · via D63 · Tolls shown",
       "via": "D63",
       "tolls": true,
       "alternatives": [
@@ -111,12 +207,44 @@
           "durationMinutes": 25,
           "via": "D63 and Umm Suqeim St/D63"
         }
-      ]
+      ],
+      "commute": {
+        "am": {
+          "timeMin": 28,
+          "timeMax": 55,
+          "distanceKm": 21,
+          "via": "Hessa St/D61",
+          "tolls": null,
+          "sourceUrl": "https://www.google.com/maps/dir/'25.0046299,55.291236'/25.097041,55.1786786/@25.0616033,55.1594621,12z/data=!3m1!4b1!4m11!4m10!1m3!2m2!1d55.291236!2d25.0046299!1m0!2m3!6e1!7e2!8j1793610000!3e0?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+          "sourceNote": "Google Maps top recommended driving route, typical traffic forecast, directly read from scheduled route UI. Tolls not displayed in forecast card.",
+          "scheduleType": "arrive",
+          "date": "2026-11-02",
+          "localTime": "09:00",
+          "timezone": "Asia/Dubai",
+          "utcOffset": "+04:00",
+          "suggestedTime": "8:05 AM"
+        },
+        "pm": {
+          "timeMin": 22,
+          "timeMax": 45,
+          "distanceKm": 18.9,
+          "via": "Hessa St/D61 and D63",
+          "tolls": null,
+          "sourceUrl": "https://www.google.com/maps/dir/25.097041,55.1786786/'25.0046299,55.291236'/@25.0624257,55.1523831,12z/data=!3m1!4b1!4m11!4m10!1m0!1m3!2m2!1d55.291236!2d25.0046299!2m3!6e0!7e2!8j1793642400!3e0?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+          "sourceNote": "Google Maps top recommended driving route, typical traffic forecast, directly read from scheduled route UI. Tolls not displayed in forecast card.",
+          "scheduleType": "depart",
+          "date": "2026-11-02",
+          "localTime": "18:00",
+          "timezone": "Asia/Dubai",
+          "utcOffset": "+04:00",
+          "suggestedTime": "6:45 PM"
+        }
+      }
     },
     {
       "id": "dubailand",
       "name": "Dubailand",
-      "caption": "Using Villanova \u00b7 assumption",
+      "caption": "Using Villanova · assumption",
       "origin": "Villanova Centre By Dubai Retail",
       "distanceKm": 30.3,
       "timeMin": 24,
@@ -124,7 +252,7 @@
       "originQuery": "25.0741648,55.3670157",
       "sourceUrl": "https://www.google.com/maps/dir/?api=1&origin=25.0741648,55.3670157&destination=25.097041,55.1786786&travelmode=driving",
       "sourceLabel": "Google Maps driving route",
-      "sourceNote": "24 min \u00b7 30.3 km \u00b7 via D63 \u00b7 Tolls shown",
+      "sourceNote": "24 min · 30.3 km · via D63 · Tolls shown",
       "via": "D63",
       "tolls": true,
       "alternatives": [
@@ -138,7 +266,39 @@
           "durationMinutes": 28,
           "via": "Emirates Rd/E611 and D63"
         }
-      ]
+      ],
+      "commute": {
+        "am": {
+          "timeMin": 30,
+          "timeMax": 60,
+          "distanceKm": 27.1,
+          "via": "Emirates Rd/E611",
+          "tolls": null,
+          "sourceUrl": "https://www.google.com/maps/dir/'25.0741648,55.3670157'/25.097041,55.1786786/@25.0740184,55.1874951,12z/data=!3m1!4b1!4m11!4m10!1m3!2m2!1d55.3670157!2d25.0741648!1m0!2m3!6e1!7e2!8j1793610000!3e0?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+          "sourceNote": "Google Maps top recommended driving route, typical traffic forecast, directly read from scheduled route UI. Tolls not displayed in forecast card.",
+          "scheduleType": "arrive",
+          "date": "2026-11-02",
+          "localTime": "09:00",
+          "timezone": "Asia/Dubai",
+          "utcOffset": "+04:00",
+          "suggestedTime": "8:00 AM"
+        },
+        "pm": {
+          "timeMin": 30,
+          "timeMax": 55,
+          "distanceKm": 29.3,
+          "via": "Sheikh Mohammed Bin Zayed Rd/E311",
+          "tolls": null,
+          "sourceUrl": "https://www.google.com/maps/dir/25.097041,55.1786786/'25.0741648,55.3670157'/@25.1164279,55.1189171,11z/data=!3m1!4b1!4m11!4m10!1m0!1m3!2m2!1d55.3670157!2d25.0741648!2m3!6e0!7e2!8j1793642400!3e0?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+          "sourceNote": "Google Maps top recommended driving route, typical traffic forecast, directly read from scheduled route UI. Tolls not displayed in forecast card.",
+          "scheduleType": "depart",
+          "date": "2026-11-02",
+          "localTime": "18:00",
+          "timezone": "Asia/Dubai",
+          "utcOffset": "+04:00",
+          "suggestedTime": "6:55 PM"
+        }
+      }
     },
     {
       "id": "investment-city",
@@ -151,7 +311,7 @@
       "originQuery": "25.0039904,55.1666649",
       "sourceUrl": "https://www.google.com/maps/dir/?api=1&origin=25.0039904,55.1666649&destination=25.097041,55.1786786&travelmode=driving",
       "sourceLabel": "Google Maps driving route",
-      "sourceNote": "18 min \u00b7 22.7 km \u00b7 via D57 and Sheikh Zayed Rd/E11 \u00b7 Tolls shown",
+      "sourceNote": "18 min · 22.7 km · via D57 and Sheikh Zayed Rd/E11 · Tolls shown",
       "via": "D57 and Sheikh Zayed Rd/E11",
       "tolls": true,
       "alternatives": [
@@ -165,7 +325,39 @@
           "durationMinutes": 21,
           "via": "Al Khail Rd/E44"
         }
-      ]
+      ],
+      "commute": {
+        "am": {
+          "timeMin": 18,
+          "timeMax": 35,
+          "distanceKm": 22.8,
+          "via": "D57 and Sheikh Zayed Rd/E11",
+          "tolls": null,
+          "sourceUrl": "https://www.google.com/maps/dir/'25.0039904,55.1666649'/25.097041,55.1786786/@25.0622722,55.0848878,12z/data=!3m1!4b1!4m11!4m10!1m3!2m2!1d55.1666649!2d25.0039904!1m0!2m3!6e1!7e2!8j1793610000!3e0?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+          "sourceNote": "Google Maps top recommended driving route, typical traffic forecast, directly read from scheduled route UI. Tolls not displayed in forecast card.",
+          "scheduleType": "arrive",
+          "date": "2026-11-02",
+          "localTime": "09:00",
+          "timezone": "Asia/Dubai",
+          "utcOffset": "+04:00",
+          "suggestedTime": "8:25 AM"
+        },
+        "pm": {
+          "timeMin": 18,
+          "timeMax": 40,
+          "distanceKm": 17,
+          "via": "Al Khail Rd/E44",
+          "tolls": null,
+          "sourceUrl": "https://www.google.com/maps/dir/25.097041,55.1786786/'25.0039904,55.1666649'/@25.0513025,55.1027362,12z/data=!3m1!4b1!4m11!4m10!1m0!1m3!2m2!1d55.1666649!2d25.0039904!2m3!6e0!7e2!8j1793642400!3e0?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+          "sourceNote": "Google Maps top recommended driving route, typical traffic forecast, directly read from scheduled route UI. Tolls not displayed in forecast card.",
+          "scheduleType": "depart",
+          "date": "2026-11-02",
+          "localTime": "18:00",
+          "timezone": "Asia/Dubai",
+          "utcOffset": "+04:00",
+          "suggestedTime": "6:40 PM"
+        }
+      }
     },
     {
       "id": "sports-city",
@@ -178,7 +370,7 @@
       "note": "Stadium is a representative area landmark, not an exact villa; match-day traffic can differ. Via Hessa St/D61. No toll warning was shown for this route.",
       "sourceUrl": "https://www.google.com/maps/dir/?api=1&origin=25.0467727,55.2190809&destination=25.097041,55.1786786&travelmode=driving",
       "sourceLabel": "Google Maps driving route",
-      "sourceNote": "13 min \u00b7 10.2 km \u00b7 via Hessa St/D61 \u00b7 No toll warning shown",
+      "sourceNote": "13 min · 10.2 km · via Hessa St/D61 · No toll warning shown",
       "via": "Hessa St/D61",
       "tolls": false,
       "alternatives": [
@@ -187,8 +379,63 @@
           "durationMinutes": 18,
           "via": "Sheikh Mohammed Bin Zayed Rd/E311"
         }
-      ]
+      ],
+      "commute": {
+        "am": {
+          "timeMin": 14,
+          "timeMax": 35,
+          "distanceKm": 10.2,
+          "via": "Hessa St/D61",
+          "tolls": null,
+          "sourceUrl": "https://www.google.com/maps/dir/'25.0467727,55.2190809'/25.097041,55.1786786/@25.0669986,55.1397402,13z/data=!3m1!4b1!4m11!4m10!1m3!2m2!1d55.2190809!2d25.0467727!1m0!2m3!6e1!7e2!8j1793610000!3e0?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+          "sourceNote": "Google Maps top recommended driving route, typical traffic forecast, directly read from scheduled route UI. Tolls not displayed in forecast card.",
+          "scheduleType": "arrive",
+          "date": "2026-11-02",
+          "localTime": "09:00",
+          "timezone": "Asia/Dubai",
+          "utcOffset": "+04:00",
+          "suggestedTime": "8:25 AM"
+        },
+        "pm": {
+          "timeMin": 16,
+          "timeMax": 35,
+          "distanceKm": 9.6,
+          "via": "Hessa St/D61",
+          "tolls": null,
+          "sourceUrl": "https://www.google.com/maps/dir/25.097041,55.1786786/'25.0467727,55.2190809'/@25.0687604,55.1588165,13z/data=!4m11!4m10!1m0!1m3!2m2!1d55.2190809!2d25.0467727!2m3!6e0!7e2!8j1793642400!3e0?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D",
+          "sourceNote": "Google Maps top recommended driving route, typical traffic forecast, directly read from scheduled route UI. Tolls not displayed in forecast card.",
+          "scheduleType": "depart",
+          "date": "2026-11-02",
+          "localTime": "18:00",
+          "timezone": "Asia/Dubai",
+          "utcOffset": "+04:00",
+          "suggestedTime": "6:35 PM"
+        }
+      }
     }
   ],
-  "asOf": "1 Nov 2026 \u00b7 12:43\u201312:44 GST"
+  "asOf": "1 Nov 2026 · 12:43–12:44 GST",
+  "forecast": {
+    "date": "2026-11-02",
+    "label": "Mon 2 Nov 2026",
+    "timezone": "GST · Dubai (UTC+4)",
+    "am": {
+      "time": "09:00",
+      "type": "arrive"
+    },
+    "pm": {
+      "time": "18:00",
+      "type": "depart"
+    },
+    "verifiedAtUtc": "2026-11-01T10:52:03Z",
+    "snapshotLocal": "1 November 2026, 14:49–14:52 GST",
+    "limits": [
+      "Forecast typical ranges, not guaranteed trip durations or live rush-hour measurements.",
+      "Representative community coordinates, not individual villas; gate/access and parking time may differ.",
+      "Toll information was not shown in scheduled forecast cards; null means unverified, not no tolls.",
+      "Some exact coordinates reverse-geocode to nearby POI labels: Arabian Ranches 3 pin → Park Five; Green Community Village pin → MH Washing machine repair services; Sports City stadium pin → JAMAL.ALSHAM.CLINC. Coordinates retained without moving pins.",
+      "Forecast distances and routes differ from original midday snapshot; stored separately."
+    ],
+    "methodology": "Rush-hour comparison assumes Monday 2 November 2026: arrive at MCN Hive by 09:00 and leave MCN Hive at 18:00, Dubai time (UTC+4). Google Maps typical-traffic ranges were checked on 1 November 2026, 14:49–14:52 GST. We use the first/top recommended route, not a claim of the fastest route; alternative ranges can overlap. Forecasts are not guarantees or live traffic. Peak route distances are separate from the Sunday snapshot."
+  }
 }
